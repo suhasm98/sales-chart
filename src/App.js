@@ -12,7 +12,7 @@ export default function App() {
       <div className="ChartContainer">
         <HighchartsReact highcharts={Highcharts} options={lineChartConfig} />
       </div>
-      <div style={{ height: 500 }}>
+      <div className="ChartContainer">
         <HighchartsReact
           highcharts={Highcharts}
           options={threeDBarChartConfig}
